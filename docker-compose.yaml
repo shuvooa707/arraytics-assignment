@@ -1,0 +1,27 @@
+version: '3.9'
+services:
+  # Apache and PHP service
+  #  web:
+  #    build:
+  #      context: .
+  #    container_name: php-apache-container
+  #    ports:
+  #      - "9090:80"
+  #    volumes:
+  #      - .:/var/www/html
+  #    depends_on:
+  #      - mysql
+  #    networks:
+  #      - main_network
+
+  mysql:
+    image: mysql
+    container_name: "mysql"
+    restart: "always"
+    ports:
+      - "3307:3306"
+    environment:
+      - MYSQL_DATABASE=arraytics
+      - MYSQL_USER=shuvo
+      - MYSQL_PASSWORD=Alpha@123
+      - MYSQL_ROOT_PASSWORD=Alpha@123

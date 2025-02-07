@@ -1,0 +1,29 @@
+.show {
+    display: block!important;
+}
+.hide {
+    display: none!important;
+}
+.bg-indigo {
+    background-color: indigo;
+}
+
+textarea {
+    resize: none;
+}
+.invalid-feedback {
+    display: block;
+}
+
+#count_message {
+    background-color: #5d5d5d;
+    color: white;
+    bottom: 25px;
+    right: 13px;
+    margin-right: 5px;
+    padding: 1px 5px;
+    border-radius: 4px;
+    font-size: small;
+    position: absolute;
+    display: inline-block;
+}

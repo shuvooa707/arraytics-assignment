@@ -1,0 +1,6 @@
+1. unzip the app.zip
+2. copy all the files inside the app folder into the `htdocs` folder
+3. start `xampp`
+4. create database for the app
+5. set database credentials in the `config/db_config.php` file
+6. in browser visit `http://localhost/`
